@@ -13,6 +13,8 @@ Packages needed:
 * hyprshot
 * hyprpaper
 * hyprlock
+* wlogout
+* waybar
 
 
 Optional but recommended packages:
