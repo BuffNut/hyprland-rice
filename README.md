@@ -15,7 +15,7 @@ Packages needed:
 * hyprlock
 
 
-Optional but reccomended packages:
+Optional but recommended packages:
 * https://docs.google.com/document/d/1L2jAYvfKgLgiW2kuFaSIOCJ8P68rF0vTsKs8dn3jmDY/edit?usp=sharing
 
 # HOW TO INSTALL
