@@ -15,6 +15,7 @@ Packages needed:
 * hyprlock
 * wlogout
 * waybar
+* blueman
 
 
 Optional but recommended packages:
