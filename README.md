@@ -20,6 +20,7 @@ Packages needed:
 * blueman
 * hyprpaper
 * ttf-meslo-nerd
+* zsh
 
 
 Optional but recommended packages:
