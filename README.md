@@ -11,7 +11,9 @@ Packages needed:
 * swaync
 * libnotify
 * hyprshot
-* hyprpaper
+* waypaper
+* hyprpicker
+* pavucontrol
 * hyprlock
 * wlogout
 * waybar
