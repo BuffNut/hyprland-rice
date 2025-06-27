@@ -18,6 +18,8 @@ Packages needed:
 * wlogout
 * waybar
 * blueman
+* hyprpaper
+* ttf-meslo-nerd
 
 
 Optional but recommended packages:
