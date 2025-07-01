@@ -20,7 +20,9 @@ Packages needed:
 * blueman
 * hyprpaper
 * ttf-meslo-nerd
+* ttf-jetbrains-mono
 * zsh
+* grimblast
 
 
 Optional but recommended packages:
