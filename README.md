@@ -10,7 +10,6 @@ Packages needed:
 * bat
 * swaync
 * libnotify
-* hyprshot
 * waypaper
 * hyprpicker
 * pavucontrol
@@ -18,7 +17,6 @@ Packages needed:
 * wlogout
 * waybar
 * blueman
-* hyprpaper
 * ttf-meslo-nerd
 * ttf-jetbrains-mono
 * zsh
