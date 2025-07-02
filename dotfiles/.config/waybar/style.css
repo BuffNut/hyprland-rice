@@ -1,130 +1,93 @@
-#waybar.top {
-  background: none;
-}
-#waybar.top > box.horizontal {
-  background: #11111b;
-  box-shadow: 0 0 4pt #11111b;
-  border-radius: 12pt;
-  margin: 6pt;
-  padding: 2pt;
+@import url("colors.css");
+
+* {
+  font-family: "DM Sans", "JetBrainsMono Nerd Font Propo", sans-serif;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: bold;
 }
 
-#custom-wofi {
-  margin-left: 7pt;
-  padding-right: 3pt;
-  font-size: 12pt;
+window#waybar {
+  background-color: transparent;
+  color: @foreground;
+}
+
+.modules-right {
+  margin-right: 12px;
 }
 
 #workspaces {
-  margin-left: 12pt;
+  background-color: @surface_container_low;
+  padding: 2px 2px 2px 2px;
+  border-radius: 50px;
+  margin-left: 12px;
 }
-#workspaces button {
-  color: #585b70;
-}
-#workspaces button:not(:first-child) {
-  margin-left: 2pt;
-}
-#workspaces button.visible {
-  color: #89b4fa;
-}
+
 #workspaces button.active {
-  color: #f38ba8;
-}
-#workspaces button:hover, #workspaces button:focus {
-  background: none;
-  border-color: transparent;
-  box-shadow: none;
-}
-#workspaces button:hover:not(.active):not(.visible), #workspaces button:focus:not(.active):not(.visible) {
-  color: #9399b2;
+  color: @on_primary_fixed;
 }
 
-#mpris {
-  background: #1e1e2e;
-  color: #a6e3a1;
-  border-radius: 12pt;
-  margin-left: 15pt;
-  padding: 0 8pt;
+#workspaces button.active:hover {
+  color: @primary_fixed_dim;
+  background: inherit;
 }
 
-#window {
-  margin-left: 15pt;
-  margin-right: 20pt;
+#workspaces button.empty {
+  color: @outline_variant;
 }
 
-#memory {
-  color: #fab387;
-  margin-right: 12pt;
+#workspaces button {
+  background-color: transparent;
+  color: @outline;
+  transition: margin 150ms ease-in-out, padding 150ms ease-in-out;
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.2s ease;
 }
 
-#tray {
-  margin-right: 10pt;
-}
-#tray menu {
-  background: #1e1e2e;
-  padding: 2pt;
-}
-#tray menu * {
-  margin: 2pt;
-}
-#tray menu check {
-  margin-right: 4pt;
+#workspaces button:hover {
+  background: @surface_container_high;
 }
 
-@keyframes blink {
-  to {
-    background-color: rgba(30, 34, 42, 0.5);
-    color: #cdd6f4;
-  }
-}
-#backlight {
-  color: #cba6f7;
-  margin-right: 10pt;
+#workspaces button.urgent {
+  background-color: @error;
+  color: @on_error;
 }
 
-#pulseaudio {
-  color: #74c7ec;
-  margin-right: 10pt;
+#battery,
+#pulseaudio,
+#backlight,
+#custom-pacman,
+#network,
+#clock,
+#custom-weather,
+#custom-media,
+#window,
+#cpu,
+#memory,
+#disk,
+#tray,
+#custom-launcher,
+#custom-power,
+#custom-screenshot,
+#custom-wallpaper,
+#custom-notification,
+#power-profiles-daemon {
+  color: @primary;
+  background-color: @surface_container;
+  padding: 0 15px 0 15px;
+  margin: 0 0 0 12px;
 }
 
-#custom-color-picker {
-  margin-right: 18pt;
-  font-size: 9pt;
+
+#window.hidden {
+    opacity: 0;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
-#custom-screenshot {
-  margin-right: 18pt;
-  font-size: 10pt;
+window#waybar.empty #window {
+    background-color: transparent;
 }
 
-#custom-wallpaper {
-  margin-right: 16pt;
-  font-size: 12pt;
-}
-
-#custom-power {
-  margin-right: 11pt;
-  font-size: 10pt;
-}
-
-#waybar.bottom {
-  background: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "JetBrainsMono Nerd Font";
-  font-size: 8.5pt;
-  font-weight: 800;
-  transition-property: background;
-  transition-duration: 0.5s;
-}
-
-tooltip {
-  background: #11111b;
-  color: #cdd6f4;
-  border-radius: 5pt;
-}
-
-/*# sourceMappingURL=style.css.map */
