@@ -1,5 +1,8 @@
 # MY HYPRLAND DOTFILES
 
+![image](https://github.com/user-attachments/assets/f8df2003-f399-4ed7-83a0-2cb666358337)
+
+
 Packages needed:
 
 * stow
@@ -11,6 +14,7 @@ Packages needed:
 * swaync
 * libnotify
 * waypaper
+* hyprpaper
 * hyprpicker
 * pavucontrol
 * hyprlock
@@ -22,10 +26,6 @@ Packages needed:
 * zsh
 * grimblast
 
-
-Optional but recommended packages:
-* https://docs.google.com/document/d/1L2jAYvfKgLgiW2kuFaSIOCJ8P68rF0vTsKs8dn3jmDY/edit?usp=sharing
-
 # HOW TO INSTALL
 
 Put the 'dotfiles' folder in your $home and
@@ -34,3 +34,4 @@ execute the following commands
 cd dotfiles
 stow .
 ```
+make sure the directories/files don't alredy exist 
