@@ -2,8 +2,10 @@
 
 ![image](https://github.com/user-attachments/assets/f8df2003-f399-4ed7-83a0-2cb666358337)
 
+# DISCLAIMER
+This is my config and was never meant for other people, expect bugs or issues, if u see something that u think was never meant to be that way report it and i will try to fix it
 
-Packages needed:
+# PACKAGES NEEDED
 
 * stow
 * kitty
