@@ -37,3 +37,6 @@ cd dotfiles
 stow .
 ```
 make sure the directories/files don't alredy exist 
+
+# OH MY ZSH FOLDER CAN BE FOUND HERE
+https://drive.google.com/file/d/1eRssdD1aeqAbQ9HGvrkC8BrYBromTDx2/view?usp=drive_link
